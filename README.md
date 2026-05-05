@@ -32,21 +32,21 @@ python manual_perspective_stitching.py
 python feature_panorama_stitching.py
 ```
 
-## Result screenshots
+## Stitching output
 
 ![camera-calibration-panorama-stitching result screenshot](docs/results/result-screenshot.png)
 
 Feature matching and final stitched panorama from the bundled example images.
 
 
-## What this demonstrates
+## Geometry workflow
 
 - Camera calibration from checkerboard views with an explicit reprojection-error workflow.
 - Manual homography stitching and feature-based panorama construction.
 - A small, inspectable OpenCV pipeline that exposes intermediate matching artifacts.
 
 
-## Limitations and next steps
+## Calibration follow-up
 
 - The examples use a compact offline image set rather than live camera capture.
 - The panorama pipeline is tuned for the included views and does not include automatic exposure compensation.
